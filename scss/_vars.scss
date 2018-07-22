@@ -1,0 +1,26 @@
+$default-font: 'Lato', sans-serif;
+$color-black: #000;
+$color-black-light: #2c2c2c;
+$color-white: #fff;
+$color-red: #f34235;
+$color-light-gray: #f1f1f1;
+$color-gray: #d4d4d4;
+$color-gray-dark: #5c5c5c;
+
+$color-blue: #3b579d;
+$color-light-blue: #5dbdfe;
+
+$primary-color: #90b5bf;
+$primary-color-dark: #7f9ca3;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
+
+// utilities 
+
+.u-padding-top-medium { padding-top: 6rem; }

@@ -1,0 +1,300 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+	.heading-primary {
+	
+		&--main {
+			font-size: 2.4rem;
+		}
+		
+		&--sub {
+			font-size: 5.5rem;
+		}
+	}
+	.header__form-box {
+		width: 70%;
+	}
+
+	.section-features__img--box {
+		top: 80%;
+	}
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+
+	.u-padding-top-medium  {
+		padding-top: 0;
+	}
+	.heading-primary {
+	
+		&--main {
+			font-size: 2rem;
+		}
+		
+		&--sub {
+			font-size: 4.7rem;
+		}
+	}
+	.paragraph {
+		font-size: 1.8rem;
+	}
+	.section-features {
+
+		&__content {
+			padding-bottom: 2rem;
+		}
+	}
+
+	.section-advanteages {
+
+		&__content {
+			padding-bottom: 6rem;
+		}
+	}
+
+	.section-team {
+
+		&__img {
+			top: -80px;
+		}
+	}
+
+	.navbar-nav {
+		background-color: rgba($primary-color, 1);
+		display: inline-block;
+		width: 100%;
+		border-radius: 2px;
+	}
+	.nav-item {
+		padding: 1rem;
+		&:hover {
+			background-color: rgba($primary-color-dark, .9);
+		}
+	}
+	.navbar-collapse {
+		z-index: 1;
+	}
+
+	.section-how-works {
+		padding-top: 6rem;
+
+		.heading-secondary {
+			margin-top: 4rem;
+		}
+	}
+
+	.map-responsive{
+		overflow:hidden;
+		padding-bottom: 40%;
+	}
+
+	.section-faq {
+		padding-bottom: 0;
+	}
+
+	.parallax-window {
+		min-height: 105rem;
+	}
+
+	.scrollup {
+		right: 35px;
+	}
+
+	.img-background {
+		height: 300px;
+	}
+
+	.section-features__img--box {
+
+    top: 90%;
+		width: 35%;
+		
+		.img-guy {
+			width: 100%;
+		}
+	}
+
+
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+
+	.header__text-box {
+		width: 100%;
+		z-index: 0;
+	}
+	.section-testimonials {
+
+		&--paragraph {
+			margin: 1rem 0;
+		}
+	}
+
+	.map-responsive{
+		overflow:hidden;
+		padding-bottom: 60%;
+	}
+
+	.parallax-window {
+		min-height: 130rem;
+	}
+
+	.section-features__img--box {
+    width: 50%;
+	}
+
+	
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+	.navbar-brand {
+    font-size: 2.5rem;
+	}
+	.heading-primary {
+	
+		&--main {
+			font-size: 1.7rem;
+		}
+		
+		&--sub {
+			font-size: 3.5rem;
+		}
+	}
+
+	.header__form-box {
+    width: 88%;
+	}
+	.section-about {
+		padding-bottom: 3rem;
+	
+		&__content {
+			padding-bottom: 3rem;
+			margin-left: 4rem;
+		}
+	}
+
+	.heading-secondary {
+		padding-top: 6rem;
+		font-size: 2.5rem;
+		
+		&__box {
+			padding-bottom: 3rem;
+			width: 100%;
+		}
+
+		&--paragraph {
+			font-size: 1.3rem;
+			margin-top: 2.5rem;
+		}
+	}
+	.heading-tertiary {
+		font-size: 2rem;
+	}
+	.paragraph {
+		font-size: 1.3rem;
+		margin-top: 0;
+	}
+	.icon-absolute {
+		
+		&--blue {
+			left: -86px;
+			border-radius: 0;
+			text-align: right;
+		}
+		&--gray {
+			left: -47px;
+		}
+	}
+	.section-features {
+		padding-bottom: 6rem;
+
+		&__content {
+		margin-left: 4rem;
+		}
+	}
+
+
+	.section-advanteages, {
+		padding-bottom: 3rem;
+	}
+
+	.section-testimonials {
+		padding-bottom: 8rem;
+
+		&--paragraph {
+			font-size: 1.3rem;
+			margin: 1rem 0;
+		}
+	}
+
+	.section-team {
+		padding-bottom: 8rem;
+	}
+
+	.section-team {
+		
+		&-box {
+			margin-top: 16rem;
+		}
+		&__img {
+			width: 120px;
+			height: 120px;
+		}
+	}
+
+	.section-how-works {
+    padding: 8rem 0;	
+	}
+
+	.map-responsive{
+		overflow:hidden;
+		padding-bottom: 70%;
+	}
+
+	.section-partners  {
+		padding-bottom: 6rem;
+	}
+
+	.parallax-window {
+		min-height: 140rem;
+	}
+
+	.scrollup {
+		 right: 20px;
+	}
+
+	.img-background {
+  	height: 250px;
+	}	
+
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}
